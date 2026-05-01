@@ -1,5 +1,640 @@
 {
+  "version": 2,
   "business": {
-    "name": "test"
-  }
+    "name": "Berti & Raho",
+    "name_en": "Berti & Raho",
+    "site_lang": "en",
+    "phone": "0525553756",
+    "phone_display": "052-555-3756",
+    "whatsapp": "972525553756",
+    "website": "",
+    "rating": 4.7,
+    "reviews_count": 47,
+    "address_he": "Malkhi Yisrael St 11, Tel Aviv-Yafo",
+    "address_en": "Malkhi Yisrael St 11, Tel Aviv-Yafo",
+    "category_he": "Bar",
+    "category_en": "Bar",
+    "maps_url": "https://maps.google.com/?q=32.0804585,34.7796677",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEyBqkKvYCQeELsMWjyNijPGc8VCOELFm_b4MwV09N0Eqwakm1jghvSw1ls4ZjaLJYbZQBdwAfGYIczbFf3IohlGpnq7k62kg3peGqJXRw8wMRXGa-2cKvQ_ghrfKlZuz51qLbXhA=w408-h725-k-no",
+    "logo_emoji": "Sparkles",
+    "geo": {
+      "latitude": 32.0804585,
+      "longitude": 34.7796677
+    },
+    "schema_type": "BarOrPub",
+    "price_range": "moderate",
+    "source_url": "https://maps.app.goo.gl/47ZShZYB5R6f2sLAA",
+    "cache_key": "47ZShZYB5R6f2sLAA"
+  },
+  "hours": [
+    {
+      "day_key": "sunday",
+      "day_he": "Sunday",
+      "day_en": "Sunday",
+      "hours_he": "Closed",
+      "hours_en": "Closed",
+      "is_open": false
+    },
+    {
+      "day_key": "monday",
+      "day_he": "Monday",
+      "day_en": "Monday",
+      "hours_he": "Closed",
+      "hours_en": "Closed",
+      "is_open": false
+    },
+    {
+      "day_key": "tuesday",
+      "day_he": "Tuesday",
+      "day_en": "Tuesday",
+      "hours_he": "Closed",
+      "hours_en": "Closed",
+      "is_open": false
+    },
+    {
+      "day_key": "wednesday",
+      "day_he": "Wednesday",
+      "day_en": "Wednesday",
+      "hours_he": "Closed",
+      "hours_en": "Closed",
+      "is_open": false
+    },
+    {
+      "day_key": "thursday",
+      "day_he": "Thursday",
+      "day_en": "Thursday",
+      "hours_he": "Closed",
+      "hours_en": "Closed",
+      "is_open": false
+    },
+    {
+      "day_key": "friday",
+      "day_he": "Friday",
+      "day_en": "Friday",
+      "hours_he": "Closed",
+      "hours_en": "Closed",
+      "is_open": false
+    },
+    {
+      "day_key": "saturday",
+      "day_he": "Saturday",
+      "day_en": "Saturday",
+      "hours_he": "Closed",
+      "hours_en": "Closed",
+      "is_open": false
+    }
+  ],
+  "design": {},
+  "sections": [
+    {
+      "id": "hero",
+      "variant": "K",
+      "visible": true,
+      "content": {
+        "badge": {
+          "he": "A neighborhood bar with championship vibes where genuine hospitality and quality craft beer create unforgettable moments.",
+          "en": "A neighborhood bar with championship vibes where genuine hospitality and quality craft beer create unforgettable moments."
+        },
+        "subtitle": {
+          "he": "Where Tel Aviv locals gather for craft beer, great food, and the kind of authentic bar experience that feels like coming home.",
+          "en": "Where Tel Aviv locals gather for craft beer, great food, and the kind of authentic bar experience that feels like coming home."
+        },
+        "available": {
+          "he": "Open daily",
+          "en": "Open daily"
+        }
+      }
+    },
+    {
+      "id": "about",
+      "variant": "J",
+      "visible": true,
+      "content": {
+        "desc": {
+          "he": "Berti & Raho is more than just a bar—it's a living room for Tel Aviv's neighborhood. With an infectious energy, genuinely friendly staff, and a commitment to quality craft beer and excellent food, this place has earned its reputation as a local favorite. Every visit tells a story of warm hospitality and the kind of service that transforms casual patrons into loyal friends.",
+          "en": "Berti & Raho is more than just a bar—it's a living room for Tel Aviv's neighborhood. With an infectious energy, genuinely friendly staff, and a commitment to quality craft beer and excellent food, this place has earned its reputation as a local favorite. Every visit tells a story of warm hospitality and the kind of service that transforms casual patrons into loyal friends."
+        },
+        "years_value": {
+          "he": "47 reviews, 4.7★ rating",
+          "en": "47 reviews, 4.7★ rating"
+        }
+      }
+    },
+    {
+      "id": "services",
+      "variant": "",
+      "visible": true,
+      "content": {
+        "subtitle": {
+          "he": "Everything that makes Berti & Raho the neighborhood's favorite gathering spot",
+          "en": "Everything that makes Berti & Raho the neighborhood's favorite gathering spot"
+        },
+        "cta": {
+          "he": "Experience the difference",
+          "en": "Experience the difference"
+        }
+      },
+      "items": [
+        {
+          "id": "1",
+          "icon": "Users",
+          "title": {
+            "he": "Community Gathering Space",
+            "en": "Community Gathering Space"
+          },
+          "desc": {
+            "he": "A neighborhood bar where locals unite—friendly faces, warm vibes, and the kind of atmosphere that keeps you coming back.",
+            "en": "A neighborhood bar where locals unite—friendly faces, warm vibes, and the kind of atmosphere that keeps you coming back."
+          }
+        },
+        {
+          "id": "2",
+          "icon": "Star",
+          "title": {
+            "he": "Craft Beer Selection",
+            "en": "Craft Beer Selection"
+          },
+          "desc": {
+            "he": "Premium draught beers and carefully curated spirits that elevate your drinking experience with quality you can taste.",
+            "en": "Premium draught beers and carefully curated spirits that elevate your drinking experience with quality you can taste."
+          }
+        },
+        {
+          "id": "3",
+          "icon": "Utensils",
+          "title": {
+            "he": "Quality Food & Drinks",
+            "en": "Quality Food & Drinks"
+          },
+          "desc": {
+            "he": "Thoughtfully prepared food paired with excellent beverages—every visit is a chance to discover something delicious.",
+            "en": "Thoughtfully prepared food paired with excellent beverages—every visit is a chance to discover something delicious."
+          }
+        },
+        {
+          "id": "4",
+          "icon": "Music",
+          "title": {
+            "he": "Instrumental Ambiance",
+            "en": "Instrumental Ambiance"
+          },
+          "desc": {
+            "he": "Carefully selected background music that sets the perfect mood without overwhelming conversation—just the right soundtrack for connection.",
+            "en": "Carefully selected background music that sets the perfect mood without overwhelming conversation—just the right soundtrack for connection."
+          }
+        },
+        {
+          "id": "5",
+          "icon": "Clock",
+          "title": {
+            "he": "Accessible & Welcoming",
+            "en": "Accessible & Welcoming"
+          },
+          "desc": {
+            "he": "Open, inviting, and easy to reach—a place where everyone feels at home from the moment they walk through the door.",
+            "en": "Open, inviting, and easy to reach—a place where everyone feels at home from the moment they walk through the door."
+          }
+        },
+        {
+          "id": "6",
+          "icon": "Award",
+          "title": {
+            "he": "Exceptional Service",
+            "en": "Exceptional Service"
+          },
+          "desc": {
+            "he": "Attentive staff who understand hospitality—they remember you, anticipate your needs, and make every visit memorable.",
+            "en": "Attentive staff who understand hospitality—they remember you, anticipate your needs, and make every visit memorable."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "variant": "A",
+      "visible": true,
+      "items": [
+        {
+          "author": "Lorraine Ramel",
+          "rating": 5,
+          "text": {
+            "he": "Good vibes! Loves this place!",
+            "en": "Good vibes! Loves this place!"
+          },
+          "date": "3 days ago",
+          "iso_date": "2026-04-28T07:25:19.189Z",
+          "is_local_guide": false
+        },
+        {
+          "author": "gabi",
+          "rating": 5,
+          "text": {
+            "he": "אחלה מקום אליפות חוויה בלתי נשכחת שחוזרת על עצמה שוב כל פעם מחדש . מקום מצוין במרכז העניינים באווירה אינסטרומנטלית מענגת להרשים את החברים.",
+            "en": "אחלה מקום אליפות חוויה בלתי נשכחת שחוזרת על עצמה שוב כל פעם מחדש . מקום מצוין במרכז העניינים באווירה אינסטרומנטלית מענגת להרשים את החברים."
+          },
+          "date": "Edited 3 weeks ago",
+          "iso_date": "2026-04-10T07:25:19.190Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Julia Dyment",
+          "rating": 5,
+          "text": {
+            "he": "Friendly bar with geatw atmosphere",
+            "en": "Friendly bar with geatw atmosphere"
+          },
+          "date": "a month ago",
+          "iso_date": "2026-04-01T07:25:19.190Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Ron Shahar",
+          "rating": 5,
+          "text": {
+            "he": "אווירה נעימה- שכונתית, תודעת שירות גבוהה, אוכל ואלכוהול טובים.",
+            "en": "אווירה נעימה- שכונתית, תודעת שירות גבוהה, אוכל ואלכוהול טובים."
+          },
+          "date": "4 months ago",
+          "iso_date": "2026-01-01T07:25:19.191Z",
+          "is_local_guide": false
+        },
+        {
+          "author": "Yael Katz",
+          "rating": 5,
+          "text": {
+            "he": "מכורה למקום הזה! נגיש, עם אוכל טוב ובירה מעולה מהחבית. אווירה שכונתית עם שירות מעולה 🫶🏼✨",
+            "en": "מכורה למקום הזה! נגיש, עם אוכל טוב ובירה מעולה מהחבית. אווירה שכונתית עם שירות מעולה 🫶🏼✨"
+          },
+          "date": "4 months ago",
+          "iso_date": "2026-01-01T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Danny Yagil",
+          "rating": 5,
+          "text": {
+            "he": "אנחנו אומנם גרים קרוב, אבל גילינו את המקום הזה לגמרי במקרה. כבר אין מקומות כאלה בתל-אביב. אווירה משפחתית שמקורה בהנהלה המשפחתית של המקום. מהבעלים עד לאחרון המלצרים כולם עם חיוך אמיתי, לא פייק, פשוט נעים וכיף לשבת לאכול ולשתות. שירות מהיר ואדיב, מחירים נוחים, אחלה בירות, אחלה קוקטיילים, אוכל בולגרי מצוין - קבבונים על טחינה, איקרה מעולה, פוקצ'ה כייפית וטריה, עלי גפן, גם הנקניקיות והצ'יפס אחלה. והכי חשוב - האנשים והשירות - אפס פלצנות, אפס אטיטיוד, תמיד עם חיוך, הרגשה שבאת להתארח אצל משפחה. מרגיש כמו המקומות השכונתיים שהיו פעם בתל-אביב לפני 20-25 שנה, אבל בקטע משפחתי וטוב. כיף של מקום. כל הכבוד, רק תמשיכו ככה.",
+            "en": "אנחנו אומנם גרים קרוב, אבל גילינו את המקום הזה לגמרי במקרה. כבר אין מקומות כאלה בתל-אביב. אווירה משפחתית שמקורה בהנהלה המשפחתית של המקום. מהבעלים עד לאחרון המלצרים כולם עם חיוך אמיתי, לא פייק, פשוט נעים וכיף לשבת לאכול ולשתות. שירות מהיר ואדיב, מחירים נוחים, אחלה בירות, אחלה קוקטיילים, אוכל בולגרי מצוין - קבבונים על טחינה, איקרה מעולה, פוקצ'ה כייפית וטריה, עלי גפן, גם הנקניקיות והצ'יפס אחלה. והכי חשוב - האנשים והשירות - אפס פלצנות, אפס אטיטיוד, תמיד עם חיוך, הרגשה שבאת להתארח אצל משפחה. מרגיש כמו המקומות השכונתיים שהיו פעם בתל-אביב לפני 20-25 שנה, אבל בקטע משפחתי וטוב. כיף של מקום. כל הכבוד, רק תמשיכו ככה."
+          },
+          "date": "5 months ago",
+          "iso_date": "2025-12-02T07:25:19.191Z",
+          "is_local_guide": false
+        },
+        {
+          "author": "נועה כהן",
+          "rating": 5,
+          "text": {
+            "he": "אוכל טעים, קוקטיילים טעימים, אווירה טובה, מיקום נעים.",
+            "en": "אוכל טעים, קוקטיילים טעימים, אווירה טובה, מיקום נעים."
+          },
+          "date": "7 months ago",
+          "iso_date": "2025-10-03T07:25:19.191Z",
+          "is_local_guide": false
+        },
+        {
+          "author": "Tsachi Cohen",
+          "rating": 5,
+          "text": {
+            "he": "צוות מקסים, תפריט מחירים הוגנים וממש טעים.",
+            "en": "צוות מקסים, תפריט מחירים הוגנים וממש טעים."
+          },
+          "date": "8 months ago",
+          "iso_date": "2025-09-03T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "marlen cohen maman",
+          "rating": 5,
+          "text": {
+            "he": "אין עוד מקום כזה בתל אביב, ממליצה במיוחד על הפיצה של איזי ועל מנת הנקניקייה. אווירה טובה של משפחתיות.",
+            "en": "אין עוד מקום כזה בתל אביב, ממליצה במיוחד על הפיצה של איזי ועל מנת הנקניקייה. אווירה טובה של משפחתיות."
+          },
+          "date": "11 months ago",
+          "iso_date": "2025-06-05T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Lin z",
+          "rating": 5,
+          "text": {
+            "he": "היינו אתמול והיה מהמם! הפיצה יער טעימה ברמות, קוקטיילים טעימים בהפי אוואר ב-40%. אווירה נעימה וצוות שירותי ואדיב. מקום מאוד מומלץ! בכוכבית אוסיף שהזמנו צ'יפס שלא הגיע במשך 50 דקות וכמה תזכורות מצדנו עד שבסוף ביקשנו לבטל אותו. לא נורא, אבל היה נחמד לקבל התייחסות או פיצוי קטן בשביל ההרגשה.",
+            "en": "היינו אתמול והיה מהמם! הפיצה יער טעימה ברמות, קוקטיילים טעימים בהפי אוואר ב-40%. אווירה נעימה וצוות שירותי ואדיב. מקום מאוד מומלץ! בכוכבית אוסיף שהזמנו צ'יפס שלא הגיע במשך 50 דקות וכמה תזכורות מצדנו עד שבסוף ביקשנו לבטל אותו. לא נורא, אבל היה נחמד לקבל התייחסות או פיצוי קטן בשביל ההרגשה."
+          },
+          "date": "a year ago",
+          "iso_date": "2025-05-01T07:25:19.191Z",
+          "is_local_guide": false
+        },
+        {
+          "author": "Miriam cbs",
+          "rating": 5,
+          "text": {
+            "he": "Great happy hour",
+            "en": "Great happy hour"
+          },
+          "date": "a year ago",
+          "iso_date": "2025-05-01T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "מאור ממו",
+          "rating": 5,
+          "text": {
+            "he": "היה ממממש כיף וטעים!! אחלה מלצרים ואחלה אווירה! אין עללל רודי ואין על רוני ❤️❤️❤️",
+            "en": "היה ממממש כיף וטעים!! אחלה מלצרים ואחלה אווירה! אין עללל רודי ואין על רוני ❤️❤️❤️"
+          },
+          "date": "2 years ago",
+          "iso_date": "2024-05-01T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Haim Piratinskiy",
+          "rating": 5,
+          "text": {
+            "he": "The food is being worked on.\nThe people and the drinks are awesome!",
+            "en": "The food is being worked on.\nThe people and the drinks are awesome!"
+          },
+          "date": "2 years ago",
+          "iso_date": "2024-05-01T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "יעל נאמני",
+          "rating": 5,
+          "text": {
+            "he": "האוכל מעולה, יש הצע טבעוני טעים וכיף\nאלכוהול מצויין וhappy hour שווה במיוחד\nאבל מה שעושה את הכל זה הצוות ובמיוחד רוני המהממת 🫶🏽 ואבי המלך.\nאוהבים יעלי ואסף",
+            "en": "האוכל מעולה, יש הצע טבעוני טעים וכיף\nאלכוהול מצויין וhappy hour שווה במיוחד\nאבל מה שעושה את הכל זה הצוות ובמיוחד רוני המהממת 🫶🏽 ואבי המלך.\nאוהבים יעלי ואסף"
+          },
+          "date": "2 years ago",
+          "iso_date": "2024-05-01T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Rafi Tshuva",
+          "rating": 5,
+          "text": {
+            "he": "תודה לרוני המהממת על שירות ברמה שכמעט ואין בארץ, עם חיוך ובכיף. היה ממש כיף",
+            "en": "תודה לרוני המהממת על שירות ברמה שכמעט ואין בארץ, עם חיוך ובכיף. היה ממש כיף"
+          },
+          "date": "2 years ago",
+          "iso_date": "2024-05-01T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Elle Kay",
+          "rating": 5,
+          "text": {
+            "he": "Best place in TLV\nFriendliest staff, great booze. Avi is for sure one of the greatest Bar tenders around and Ruddy is hilarious AF. Absolute delight.",
+            "en": "Best place in TLV\nFriendliest staff, great booze. Avi is for sure one of the greatest Bar tenders around and Ruddy is hilarious AF. Absolute delight."
+          },
+          "date": "3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": false
+        },
+        {
+          "author": "Sivan Zamir",
+          "rating": 5,
+          "text": {
+            "he": "המקום, האוכל, האווירה…",
+            "en": "המקום, האוכל, האווירה…"
+          },
+          "date": "3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Mickey Pikarski",
+          "rating": 5,
+          "text": {
+            "he": "טעים ! הצוות אחלה",
+            "en": "טעים ! הצוות אחלה"
+          },
+          "date": "3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Nimrod S",
+          "rating": 5,
+          "text": {
+            "he": "מקום שכונתי עם שירות מושלם, אוכל טעים ומחירים זולים (אפילו מאוד בהאפי האוור).\nמומלץ בחום רב.",
+            "en": "מקום שכונתי עם שירות מושלם, אוכל טעים ומחירים זולים (אפילו מאוד בהאפי האוור).\nמומלץ בחום רב."
+          },
+          "date": "3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Crespo Seventy",
+          "rating": 5,
+          "text": {
+            "he": "מקום מגניב עם שירות מעולה",
+            "en": "מקום מגניב עם שירות מעולה"
+          },
+          "date": "Edited 3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Eyal Herlin",
+          "rating": 5,
+          "text": {
+            "he": "מקום נעים עם צוות כייפי, אווירה טובה ומוזיקה טובה.\nהאוכל טעים, נקי ואיכותי (פיצות מצויינות, צ'יפס טוב).\nקוקטיילים טובים.",
+            "en": "מקום נעים עם צוות כייפי, אווירה טובה ומוזיקה טובה.\nהאוכל טעים, נקי ואיכותי (פיצות מצויינות, צ'יפס טוב).\nקוקטיילים טובים."
+          },
+          "date": "3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Dan Avrahami",
+          "rating": 5,
+          "text": {
+            "he": "בר שכונתי קטן ולבבי. שירות מקסים, אוכל טעים ואחלה אווירה. מומלץ בחום!",
+            "en": "בר שכונתי קטן ולבבי. שירות מקסים, אוכל טעים ואחלה אווירה. מומלץ בחום!"
+          },
+          "date": "3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Shelly Kataby",
+          "rating": 5,
+          "text": {
+            "he": "Great place! The service is awesome, the atmosphere is great. We ordered pino grigio and pizza and I highly recommend. The prices are fair.",
+            "en": "Great place! The service is awesome, the atmosphere is great. We ordered pino grigio and pizza and I highly recommend. The prices are fair."
+          },
+          "date": "3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Johnathan Kott",
+          "rating": 5,
+          "text": {
+            "he": "אחלה אווירה, האפי האוור במחירים משתלמים.\nמומלץ!",
+            "en": "אחלה אווירה, האפי האוור במחירים משתלמים.\nמומלץ!"
+          },
+          "date": "Edited 3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Yaniv M",
+          "rating": 5,
+          "text": {
+            "he": "מקום חדש\nאוכל טוב ולא יקר\nשירות מעולה\nמומלץ בחום",
+            "en": "מקום חדש\nאוכל טוב ולא יקר\nשירות מעולה\nמומלץ בחום"
+          },
+          "date": "Edited 3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "עגור יעקבי",
+          "rating": 5,
+          "text": {
+            "he": "שירות נהדר של הצוות, ואיזי שמנהל את כל העסק באהבה גדולה, תפריט מגוון, טעים עם נגיעות בולגריות, בלוקיישן מצוין בתל אביב",
+            "en": "שירות נהדר של הצוות, ואיזי שמנהל את כל העסק באהבה גדולה, תפריט מגוון, טעים עם נגיעות בולגריות, בלוקיישן מצוין בתל אביב"
+          },
+          "date": "3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Michael Allwood",
+          "rating": 5,
+          "text": {
+            "he": "יחס חם, אוכל מצויין, אווירה טיל ואלכוהול מצויין.\nבר שכונתי שנותן יחס של בית. ממליץ לגמרי",
+            "en": "יחס חם, אוכל מצויין, אווירה טיל ואלכוהול מצויין.\nבר שכונתי שנותן יחס של בית. ממליץ לגמרי"
+          },
+          "date": "3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": false
+        },
+        {
+          "author": "Gali Gev",
+          "rating": 5,
+          "text": {
+            "he": "אחלה אווירה, אוכל ומוזיקה, והמלצרים חמודים ממש!",
+            "en": "אחלה אווירה, אוכל ומוזיקה, והמלצרים חמודים ממש!"
+          },
+          "date": "3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": false
+        },
+        {
+          "author": "niv grunspan",
+          "rating": 5,
+          "text": {
+            "he": "אחלה וויב, מקום נותן שירות מעולה, כל הכבוד שיש עדיין מקומות כאלה",
+            "en": "אחלה וויב, מקום נותן שירות מעולה, כל הכבוד שיש עדיין מקומות כאלה"
+          },
+          "date": "3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": true
+        },
+        {
+          "author": "Shai Miller",
+          "rating": 5,
+          "text": {
+            "he": "The cocktails were great! Food was nice. The bartender is a great guy that made everything so we'll enjoy. The prices are fair, with great happy hour!\nHighly recommend, will definitely be back again.",
+            "en": "The cocktails were great! Food was nice. The bartender is a great guy that made everything so we'll enjoy. The prices are fair, with great happy hour!\nHighly recommend, will definitely be back again."
+          },
+          "date": "3 years ago",
+          "iso_date": "2023-05-02T07:25:19.191Z",
+          "is_local_guide": true
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "variant": "",
+      "visible": true,
+      "content": {
+        "subtitle": {
+          "he": "Ready to join the neighborhood? Reach out or stop by Malkhi Yisrael Street.",
+          "en": "Ready to join the neighborhood? Reach out or stop by Malkhi Yisrael Street."
+        },
+        "wa_hello": {
+          "he": "Hi Berti & Raho, I'd like to learn more about your bar!",
+          "en": "Hi Berti & Raho, I'd like to learn more about your bar!"
+        }
+      }
+    },
+    {
+      "id": "location",
+      "variant": "",
+      "visible": true
+    },
+    {
+      "id": "gallery",
+      "variant": "C",
+      "visible": true,
+      "content": {
+        "subtitle": {
+          "he": "See the warmth and energy that defines Berti & Raho",
+          "en": "See the warmth and energy that defines Berti & Raho"
+        }
+      },
+      "items": [
+        {
+          "url": "/images/photo-1.webp",
+          "thumb": "/images/photo-1.webp",
+          "source": "owner",
+          "alt": {
+            "he": "Berti & Raho",
+            "en": "Berti & Raho"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "variant": "",
+      "visible": false,
+      "items": []
+    },
+    {
+      "id": "faq",
+      "variant": "",
+      "visible": false,
+      "items": []
+    },
+    {
+      "id": "team",
+      "variant": "",
+      "visible": false,
+      "items": []
+    },
+    {
+      "id": "before_after",
+      "variant": "",
+      "visible": false,
+      "items": []
+    },
+    {
+      "id": "video",
+      "variant": "",
+      "visible": false,
+      "items": []
+    },
+    {
+      "id": "menu",
+      "variant": "",
+      "visible": false,
+      "items": []
+    },
+    {
+      "id": "steps",
+      "variant": "",
+      "visible": false,
+      "items": []
+    },
+    {
+      "id": "stats",
+      "variant": "",
+      "visible": false,
+      "items": []
+    }
+  ]
 }
