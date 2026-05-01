@@ -87,40 +87,6 @@
   "design": {},
   "sections": [
     {
-      "id": "hero",
-      "variant": "K",
-      "visible": true,
-      "content": {
-        "badge": {
-          "he": "A neighborhood bar with championship vibes where genuine hospitality and quality craft beer create unforgettable moments.",
-          "en": "A neighborhood bar with championship vibes where genuine hospitality and quality craft beer create unforgettable moments."
-        },
-        "subtitle": {
-          "he": "Where Tel Aviv locals gather for craft beer, great food, and the kind of authentic bar experience that feels like coming home.",
-          "en": "Where Tel Aviv locals gather for craft beer, great food, and the kind of authentic bar experience that feels like coming home."
-        },
-        "available": {
-          "he": "Open daily",
-          "en": "Open daily"
-        }
-      }
-    },
-    {
-      "id": "about",
-      "variant": "J",
-      "visible": true,
-      "content": {
-        "desc": {
-          "he": "Berti & Raho is more than just a bar—it's a living room for Tel Aviv's neighborhood. With an infectious energy, genuinely friendly staff, and a commitment to quality craft beer and excellent food, this place has earned its reputation as a local favorite. Every visit tells a story of warm hospitality and the kind of service that transforms casual patrons into loyal friends.",
-          "en": "Berti & Raho is more than just a bar—it's a living room for Tel Aviv's neighborhood. With an infectious energy, genuinely friendly staff, and a commitment to quality craft beer and excellent food, this place has earned its reputation as a local favorite. Every visit tells a story of warm hospitality and the kind of service that transforms casual patrons into loyal friends."
-        },
-        "years_value": {
-          "he": "47 reviews, 4.7★ rating",
-          "en": "47 reviews, 4.7★ rating"
-        }
-      }
-    },
-    {
       "id": "services",
       "variant": "",
       "visible": true,
@@ -208,6 +174,40 @@
           }
         }
       ]
+    },
+    {
+      "id": "hero",
+      "variant": "K",
+      "visible": true,
+      "content": {
+        "badge": {
+          "he": "A neighborhood bar with championship vibes where genuine hospitality and quality craft beer create unforgettable moments.",
+          "en": "A neighborhood bar with championship vibes where genuine hospitality and quality craft beer create unforgettable moments."
+        },
+        "subtitle": {
+          "he": "Where Tel Aviv locals gather for craft beer, great food, and the kind of authentic bar 2experience that feels like coming home.",
+          "en": "Where Tel Aviv locals gather for craft beer, great food, and the kind of authentic bar 2experience that feels like coming home."
+        },
+        "available": {
+          "he": "Open daily",
+          "en": "Open daily"
+        }
+      }
+    },
+    {
+      "id": "about",
+      "variant": "J",
+      "visible": true,
+      "content": {
+        "desc": {
+          "he": "Berti & Raho is more than just a bar—it's a living room for Tel Aviv's neighborhood. With an infectious energy, genuinely friendly staff, and a commitment to quality craft beer and excellent food, this place has earned its reputation as a local favorite. Every visit tells a story of warm hospitality and the kind of service that transforms casual patrons into loyal friends.",
+          "en": "Berti & Raho is more than just a bar—it's a living room for Tel Aviv's neighborhood. With an infectious energy, genuinely friendly staff, and a commitment to quality craft beer and excellent food, this place has earned its reputation as a local favorite. Every visit tells a story of warm hospitality and the kind of service that transforms casual patrons into loyal friends."
+        },
+        "years_value": {
+          "he": "47 reviews, 4.7★ rating",
+          "en": "47 reviews, 4.7★ rating"
+        }
+      }
     },
     {
       "id": "reviews",
