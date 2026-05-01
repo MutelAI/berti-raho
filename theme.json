@@ -1,0 +1,11 @@
+{
+  "primary_color": "orange",
+  "secondary_color": "rose",
+  "hero_gradient": "from-orange-900 via-orange-800 to-rose-900",
+  "contact_gradient": "from-rose-900 via-orange-800 to-orange-900",
+  "font_heading": "Poppins",
+  "font_body": "Inter",
+  "font_google_import": "@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap');",
+  "brand_personality": "Warm, welcoming, community-focused, authentic",
+  "logo_emoji": "Sparkles"
+}
